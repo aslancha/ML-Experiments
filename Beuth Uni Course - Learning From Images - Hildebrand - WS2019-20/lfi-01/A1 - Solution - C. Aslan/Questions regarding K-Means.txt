@@ -1,0 +1,6 @@
+a) What are the problems of this clustering algorithm?
+Since the initialization is random, every new clustering can have different clusters.
+Another problem is the number of clusters. If the number of clusters are not optimal, the instability is even bigger.
+
+b) How can I improve the results?
+Test different numbers of clusters k for a certain number of iterations and choose the k with the lowest  mean instabilty.
